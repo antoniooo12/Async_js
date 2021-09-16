@@ -1,0 +1,54 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "'Web application world of vegs'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "../Світ овочів/WebApp/node_modules/.bin/cross-env NODE_ENV=development webpack",
+    "build": "../Світ овочів/WebApp/node_modules/.bin/cross-env NODE_ENV=production webpack --mode production",
+    "serve": "../Світ овочів/WebApp/node_modules/.bin/webpack serve",
+    "rserve": "cross-env NODE_ENV=development webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniooo12/WebStore.git"
+  },
+  "keywords": [
+    "js",
+    "app",
+    "application",
+    "store",
+    "web"
+  ],
+  "author": "anton.omelyanenko.14@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoniooo12/WebStore/issues"
+  },
+  "homepage": "https://github.com/antoniooo12/WebStore#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "*",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.31.0",
+    "eslint-loader": "^4.0.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "normalize.css": "^8.0.1"
+  }
+}
