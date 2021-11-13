@@ -1,0 +1,1 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Title</title><script defer="defer" src="bundle.4630e22de7fc9e3a7867.js"></script></head><body><div id="start"></div><script src="index.js"></script></body></html>
